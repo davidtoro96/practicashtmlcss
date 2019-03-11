@@ -3,7 +3,6 @@ display:flex;
 flex-flow: wrap;
 justify-content: space-around;
 align-content: space-around;
-flex-flow: wrap;
 background: #cbf1f5;
 font-family: verdana;
 }
