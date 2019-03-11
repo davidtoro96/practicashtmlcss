@@ -1,0 +1,59 @@
+body { 
+	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+	display: grid;
+	grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+	grid-gap: 5px;
+  height: 100vh;
+  margin: 10px;  
+}
+
+header {
+	background: #c6cbef;
+	grid-area: header;
+}
+
+nav {
+	background: #fdfdf6;
+	grid-area: nav; 
+}
+
+section {
+	background: #ffe6eb;
+	grid-area: section;    
+}
+
+aside {
+	background: #b4e9e2;
+	grid-area: aside; 
+}
+
+footer {
+	background: #e8d3ff;
+	grid-area: footer;
+}
+
+header, nav, section, aside, footer {
+	padding: 5px;
+}
+
+#encabezado{
+text-align: right;
+font-family:verdana;
+color:#de4383;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+
+img{
+    width: 20px;
+}
