@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<title>Atom</title>
+<link href="https://github.com/davidtoro96/practicashtmlcss/tree/master/rss/analizando%20rss/ejemplos/atom.xml"/>
+<updated>2019-04-01T23:55:00+00:00</updated>
+<author>
+<name>David Toro Martínez</name>
+</author>
+<id>https://github.com/davidtoro96/practicashtmlcss/tree/master/rss/analizando%20rss/ejemplos/atom.xml</id>
+
+<entry>
+<title>Entrada</title>
+<link href="https://github.com/davidtoro96/practicashtmlcss/tree/master/rss/analizando%20rss/ejemplos/atom.xml"/>
+<id>https://github.com/davidtoro96/practicashtmlcss/tree/master/rss/analizando%20rss/ejemplos/atom.xml</id>
+<updated>2019-04-01T23:55:00+00:00</updated>
+<summary>Resumen del atom</summary>
+</entry>
+</feed>
