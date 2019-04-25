@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+  <programa nombre="Firefox" licencia="GPL" licencia2="MPL" />
+    <!--Nombre de atributos duplicados, he añadido un 2 al final para diferenciarlos-->
+  <programa nombre="OpenOffice.org" licencia2="LGPL" />
+ <!--Nombre de atributos duplicados, he añadido un 2 al final para diferenciarlos-->
+    <!--Faltaban comillas dobles en licencia2-->
+  <programa nombre="Inkscape" licencia2="GPL" />
+ <!--Nombre de atributos duplicados, he añadido un 2 al final para diferenciarlos-->
+</programas>

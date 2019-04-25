@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+  <mundial>
+    <pais nombre="España"/>
+    <!--Faltaba el atributo nombre, para indicar su nombre-->
+    <año año="1982"/>
+    <!--Faltaba el atributo año, para indicar la cifra-->
+  </mundial>
+</mundiales-de-futbol>

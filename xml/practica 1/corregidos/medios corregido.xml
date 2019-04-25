@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+  <bicicleta velocidad="v100km/h" />
+      <!--Hay que quitar el signo de menor < -->
+  <patinete velocidad-maxima="50 km/h"/>
+<!--Hay que cerrar la etiqueta, y poner un guión en vez de un espacio entre velocidad y máxima -->
+</mediosDeTransporte>
