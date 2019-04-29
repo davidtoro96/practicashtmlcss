@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contabilidad [
+<!ELEMENT contabilidad (apunte*)>
+<!--Señalo con (apunte* que tendrá más etiquetas dentro de él, las cuales las indico en la siguiente línea-->
+<!ELEMENT apunte ((ingreso|gasto), fecha, cantidad, concepto)>
+<!--Quité el * y añadí los campos que faltaban a mano-->
+<!ELEMENT ingreso (#PCDATA)>
+<!--Añado esta etiqueta e indicaré que tiene contenido-->
+<!ELEMENT gasto (#PCDATA)>
+<!--Añado esta etiqueta e indicaré que tiene contenido-->
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT concepto (#PCDATA)>
+]>
+<contabilidad>
+<apunte>
+<ingreso />
+<fecha>24 de febrero de 2011</fecha>
+<cantidad>1800,00 €</cantidad>
+<concepto>Salario</concepto>
+</apunte>
+<apunte>
+<gasto />
+<fecha>28 de febrero de 2011</fecha>
+<cantidad>74,25 €</cantidad>
+<concepto>Recibo luz</concepto>
+</apunte>
+</contabilidad>

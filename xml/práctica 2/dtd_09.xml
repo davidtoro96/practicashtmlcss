@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistemaSolar [
+<!ELEMENT sistemaSolar (cuerpo*)>
+<!ELEMENT cuerpo ((planeta|satelite|asteroide)+)>
+<!ELEMENT planeta (#PCDATA)>
+<!ELEMENT satelite (#PCDATA)>
+<!ELEMENT asteroide (#PCDATA)>
+]>
+<sistemaSolar>
+<cuerpo>
+<planeta>Tierra</planeta>
+</cuerpo>
+<cuerpo>
+<satelite>Luna</satelite>
+</cuerpo>
+<cuerpo>
+<asteroide>Asteroide</asteroide>
+</cuerpo>
+<!--Hay que añadir 3 cuerpos, ya que sólo deja según está definido en el dtd poner una de las 3 etiquetas por cuerpo-->
+</sistemaSolar>

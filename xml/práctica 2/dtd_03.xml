@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colores [
+<!ELEMENT colores (color*)>
+<!ELEMENT color (#PCDATA)>
+]>
+<colores>
+<color>azul marino</color>
+<color>negro<color>
+<!--He añadido la etiqueta color, no podía estar ahí suelta sin etiqueta-->
+<color>amarillo</color>
+</colores>
