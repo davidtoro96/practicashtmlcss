@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE favoritos [
-<!ELEMENT marcadores (marcador)>
+<!DOCTYPE marcadores[
+<!ELEMENT marcadores (marcador*)>
 <!--cambio favoritos por marcadores, ya que es  la etiqueta raíz-->
 <!ELEMENT marcador (nombre, uri)>
 <!--cambio favoritos por marcador, ya que es  la etiqueta hijo correspondiente-->
