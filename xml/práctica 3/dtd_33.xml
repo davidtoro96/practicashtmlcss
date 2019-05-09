@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuadros [
+<!ELEMENT cuadros (cuadro*)>
+<!ELEMENT cuadro EMPTY>
+<!ATTLIST cuadro titulo ID #REQUIRED>
+<!ATTLIST cuadro autor CDATA #REQUIRED>
+]>
+<cuadros>
+<cuadro titulo="AdányEva" autor="Alberto Durero" />
+<cuadro titulo="AdányEva2" autor="Lucas Cranach, el viejo" />
+<!--He cambiado el orden de los atributos, he quitado el espacio en título y he cambiado el segundo para que no coincidan-->
+</cuadros>
